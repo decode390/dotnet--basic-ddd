@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "C#: Web.API [http]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\src\\Web.API\\Web.API.csproj",
+            "launchConfigurationId": "TargetFramework=;http"
+        },
+        {
+            "name": "C#: Web.API [https]",
+            "type": "dotnet",
+            "request": "launch",
+            "projectPath": "${workspaceFolder}\\src\\Web.API\\Web.API.csproj",
+            "launchConfigurationId": "TargetFramework=;https"
+        },
+    ]
+}
